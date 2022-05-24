@@ -117,11 +117,6 @@
                     "label": "Rural Ward",
                     "placeholder": "Enter ward",
                     "field": "address2"
-                },
-                "customAttributes": {
-                    "label": "रुग्णाचे नाव",
-                    "placeholder": "रुग्णाचे नाव",
-                    "fields": ["givenNameLocal", "middleNameLocal", "familyNameLocal"]
                 }
             }
         }
