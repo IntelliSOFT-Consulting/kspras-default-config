@@ -54,7 +54,7 @@
     "id": "bahmni.radiology.document.upload",
     "extensionPointId": "org.bahmni.home.dashboard",
     "type": "link",
-    "translationKey": "MODULE_LABEL_RADIOLOGY_UPLOAD_KEY",
+    "translationKey": "MODULE_LABEL_DIAGNOSTIC_IMAGING_KEY",
     "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
     "icon": "icon-bahmni-radiology",
     "order": 5,
