@@ -44,12 +44,6 @@
                         "numberOfVisits": 2
                     }
                 },
-                "disposition":{
-                    "translationKey":"DASHBOARD_TITLE_DISPOSITION_KEY",
-                    "type": "disposition",
-                    "numberOfVisits": 1,
-                    "displayOrder": 1
-                },
                 "diagnosis":{
                     "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
                     "type": "diagnosis",
