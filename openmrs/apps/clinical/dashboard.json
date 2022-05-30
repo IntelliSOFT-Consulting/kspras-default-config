@@ -159,21 +159,21 @@
                     }
                 }
             },
-            "historyAndExaminations":{  
-                "translationKey":"DASHBOARD_TITLE_HISTORY_AND_EXAMINATIONS_KEY",
+            "WoundProgressForm":{  
+                "translationKey":"DASHBOARD_TITLE_WOUND_PROGRESS_FORM_KEY",
                 "type":"vitals",
                 "isObservation":true,
                 "displayOrder":14,
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[  
-                        "History and Examination"
+                        "Wound Progress Form"
                     ],
-                    "numberOfVisits":2
+                    "numberOfVisits":4
                 },
                 "expandedViewConfig":{  
                     "conceptNames":[  
-                        "History and Examination"
+                        "Wound Progress Form"
                     ],
                     "numberOfVisits":2,
                     "showDetailsButton":true,
