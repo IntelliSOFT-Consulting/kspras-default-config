@@ -61,9 +61,6 @@
             		"class",
             		"caste"
         		],
-        		"additionalPatientIdentifiers": [
-           			"National ID"
-       		],
         		"preferredIdentifier": "Id_Number"
     	},
         "obsIgnoreList": [
