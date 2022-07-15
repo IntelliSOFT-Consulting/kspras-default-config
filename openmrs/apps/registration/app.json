@@ -42,7 +42,9 @@
                 },
                 "hidden": {
                     "attributes": [
-                        "primaryContact"
+                        "primaryContact",
+                        "registrationLocation"
+
                     ]
                 },
                 "defaults":  {
