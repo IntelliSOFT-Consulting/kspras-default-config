@@ -25,6 +25,7 @@
             "activeVisitUuid"
         ],
         "config" : {
+            "afterVisitSaveForwardUrl" : "../clinical/#/default/patient/{{patientUuid}}/dashboard",
             "patientInformation": {
                 "additionalPatientInformation": {
                     "title": "Additional Patient Information",
