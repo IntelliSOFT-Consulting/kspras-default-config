@@ -24,5 +24,18 @@ Bahmni.ConceptSet.FormConditions.rules = {
                 disable: ["Posture"]
             }
         }
+    },
+    "Mode of Payment" : function (formName, formFieldValues) {
+        var paymentMode = formFieldValues['Mode of Payment'];
+        if (paymentMode === "Insurance, Mode of Payment") {
+            return {
+                show: ["NHIF Number","NHIF Comments"]
+            }  
+        } else {
+            return {
+                hide: ["NHIF Number","NHIF Comments"]
+            }
+        }
     }
+
 };

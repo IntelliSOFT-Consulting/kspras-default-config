@@ -9,16 +9,6 @@
     "order": 1,
     "requiredPrivilege": "app:registration"
   },
-  "programs": {
-    "id": "bahmni.programs",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_PROGRAMS_KEY",
-    "url": "../clinical/#/programs/patient/search",
-    "icon": "icon-bahmni-program",
-    "order": 2,
-    "requiredPrivilege": "app:clinical"
-  },
   "clinical": {
     "id": "bahmni.clinical",
     "extensionPointId": "org.bahmni.home.dashboard",
@@ -50,26 +40,6 @@
     "order": 7,
     "requiredPrivilege": "app:adt"
   },
-  "radiologyDocumentUpload": {
-    "id": "bahmni.radiology.document.upload",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_DIAGNOSTIC_IMAGING_KEY",
-    "url": "../document-upload/?encounterType=RADIOLOGY&topLevelConcept=Radiology",
-    "icon": "icon-bahmni-radiology",
-    "order": 5,
-    "requiredPrivilege": "app:radiology-upload"
-  },
-  "patientDocumentUpload": {
-    "id": "bahmni.patient.document.upload",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_PATIENT_DOCUMENTS_KEY",
-    "url": "../document-upload/?encounterType=Patient Document&topLevelConcept=Patient Document&defaultOption=Patient file",
-    "icon": "icon-bahmni-documents",
-    "order": 6,
-    "requiredPrivilege": "app:patient-documents"
-  },
   "admin": {
     "id": "bahmni.admin",
     "extensionPointId": "org.bahmni.home.dashboard",
@@ -79,16 +49,6 @@
     "icon": "icon-bahmni-admin",
     "order": 7,
     "requiredPrivilege": "app:admin"
-  },
-  "orders": {
-    "id": "bahmni.orders",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_ORDERS_KEY",
-    "url": "../orders/#/search",
-    "icon": "icon-bahmni-orders",
-    "order": 10,
-    "requiredPrivilege": "app:orders"
   },
   "reports": {
     "id": "bahmni.reports",
@@ -110,26 +70,6 @@
     "order": 9,
     "requiredPrivilege": "app:ot"
   }, 
-  "implementerInterface": {
-    "id": "bahmni.implementer.interface",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_IMPLEMENTER_INTERFACE_KEY",
-    "url": "/implementer-interface",
-    "icon": "fa fa-pencil-square-o",
-    "order": 12,
-    "requiredPrivilege": "app:implementer-interface"
-  },
-  "atomfeedConsole": {
-    "id": "bahmni.atomfeed.console",
-    "extensionPointId": "org.bahmni.home.dashboard",
-    "type": "link",
-    "translationKey": "MODULE_LABEL_ATOMFEED_CONSOLE_KEY",
-    "url": "/atomfeed-console",
-    "icon": "fa fa-terminal",
-    "order": 13,
-    "requiredPrivilege": "app:admin"
-  },
   "appointmentScheduling": {
     "id": "bahmni.appointment.scheduling",
     "extensionPointId": "org.bahmni.home.dashboard",
@@ -140,5 +80,4 @@
     "order": 14,
     "requiredPrivilege": "app:appointments"
   }
-
 }
