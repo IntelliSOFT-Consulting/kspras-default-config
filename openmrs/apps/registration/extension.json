@@ -57,5 +57,18 @@
         },
         "order": 3,
         "requiredPrivilege": "Edit Visits"
+    },
+    "modeofpayment":{
+        "id": "bahmni.registration.conceptSetGroup.modeofpayament",
+        "extensionPointId": "org.bahmni.registration.conceptSetGroup.observations",
+        "type": "config",
+        "extensionParams": {
+            "conceptName": "Payment Details",
+            "translationKey": "PAYMENT_DETAILS_KEY",
+            "conceptNames": ["Mode of Payment"],
+            "required":true
+        },
+        "order": 1,
+        "requiredPrivilege": "Edit Visits"
     }
 }
