@@ -19,13 +19,28 @@
                     "countyDistrict"
                 ]
             },
-            "diagnosis":{
-                "translationKey":"DASHBOARD_TITLE_DIAGNOSIS_KEY",
-                "type":"diagnosis",
-                "showCertainty":true,
-                "showOrder":true,
-                "showDetailsButton":true,
-                "displayOrder":1
+            "patientDocument":{  
+                "translationKey":"DASHBOARD_TITLE_PATIENT_DOCUMENT_FORM_KEY",
+                "type":"vitals",
+                "isObservation":true,
+                "displayOrder":1,
+                "dashboardConfig":{  
+                    "showDetailsButton":true,
+                    "conceptNames":[  
+                        "Patient Document Form"
+                    ],
+                    "numberOfVisits":4
+                },
+                "expandedViewConfig":{  
+                    "conceptNames":[  
+                        "Patient Document Form"
+                    ],
+                    "numberOfVisits":2,
+                    "showDetailsButton":true,
+                    "pivotTable":{  
+
+                    }
+                }
             },
             "navigationLinksControl":{  
                 "translationKey":"DASHBOARD_TITLE_NAVIGATION_LINKS_CONTROL_KEY",
@@ -35,17 +50,9 @@
                     "home",
                     "visit",
                     "registration",
-                    "inpatient",
                     "enrolment",
                     "visitAttribute"
                 ]
-            },
-            "disposition":{  
-                "translationKey":"DASHBOARD_TITLE_DISPOSITION_KEY",
-                "showDetailsButton":true,
-                "type":"disposition",
-                "numberOfVisits":1,
-                "displayOrder":7
             },
             "treatments":{  
                 "translationKey":"DASHBOARD_TITLE_TREATMENTS_KEY",
@@ -70,12 +77,6 @@
                     "showOtherActive":true,
                     "showDetailsButton":true
                 }
-            },
-            "radiology":{  
-                "translationKey":"DASHBOARD_TITLE_DIAGNOSTIC_IMAGING_KEY",
-                "type":"radiology",
-                "showDetailsButton":true,
-                "displayOrder":5
             },
             "labResults":{  
                 "translationKey":"DASHBOARD_TITLE_PROCEDURES_KEY",
@@ -160,20 +161,20 @@
                 }
             },
             "WoundProgressForm":{  
-                "translationKey":"DASHBOARD_TITLE_WOUND_PROGRESS_FORM_KEY",
+                "translationKey":"DASHBOARD_TITLE_PERIOPERATIVE_FORM_KEY",
                 "type":"vitals",
                 "isObservation":true,
                 "displayOrder":14,
                 "dashboardConfig":{  
                     "showDetailsButton":true,
                     "conceptNames":[  
-                        "Wound Progress Form"
+                        "Perioperative Form"
                     ],
                     "numberOfVisits":4
                 },
                 "expandedViewConfig":{  
                     "conceptNames":[  
-                        "Wound Progress Form"
+                        "Perioperative Form"
                     ],
                     "numberOfVisits":2,
                     "showDetailsButton":true,
@@ -236,11 +237,6 @@
                 "type":"admissionDetails",
                 "displayOrder":19,
                 "showDetailsButton":true
-            },
-            "conditions": {
-                "translationKey":"CONDITION_LIST_DISPLAY_CONTROL_TITLE",
-                "type": "conditionsList",
-                "displayOrder": 20
             },
             "formsDisplay": {
                 "type": "forms",
