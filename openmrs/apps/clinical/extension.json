@@ -57,12 +57,12 @@
     "requiredPrivilege": "app:clinical:history"
   },
   "bahmniClinicalConceptSetGroupObservationsTheatreForm": {
-    "id": "bahmni.clinical.conceptSetGroup.observations.vitals",
+    "id": "bahmni.clinical.conceptSetGroup.observations.history",
     "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Theatre form"
+      "conceptName": "Perioperative Form"
     },
     "order": 2,
     "requiredPrivilege": "app:clinical"
@@ -73,9 +73,20 @@
     "type": "config",
     "extensionParams": {
       "default": true,
-      "conceptName": "Wound Progress Form"
+      "conceptName": "Diagnostic Imaging Form"
     },
     "order": 3,
+    "requiredPrivilege": "app:clinical"
+  },
+  "bahmniClinicalConceptSetGroupObservationsPatientDocument": {
+    "id": "bahmni.clinical.conceptSetGroup.observations.vitals",
+    "extensionPointId": "org.bahmni.clinical.conceptSetGroup.observations",
+    "type": "config",
+    "extensionParams": {
+      "default": true,
+      "conceptName": "Patient Document Form"
+    },
+    "order": 4,
     "requiredPrivilege": "app:clinical"
   },
   "bahmniClinicalConceptSetGroupObservationsSecondVitals": {
