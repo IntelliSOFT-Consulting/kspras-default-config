@@ -123,6 +123,14 @@
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/procedureBreakdown.sql"
         }
     },
+    "procedureTallyReports": {
+        "name": "Procedure Tally Report",
+        "type": "MRSGeneric",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/proceduresTally.sql"
+        }
+    },
     "burnRatesReports": {
         "name": "Burn Rates Report",
         "type": "MRSGeneric",
@@ -145,6 +153,22 @@
         "requiredPrivilege": "app:reports",
         "config": {
             "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/handInjury.sql"
+        }
+    },
+    "handInjuryTallyReports": {
+        "name": "Hand Injury Tally Report",
+        "type": "MRSGeneric",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/handInjuryTally.sql"
+        }
+    }, 
+    "siteOfInfectionReports": {
+        "name": "Surgical Site Infection Report",
+        "type": "MRSGeneric",
+        "requiredPrivilege": "app:reports",
+        "config": {
+            "sqlPath": "/var/www/bahmni_config/openmrs/apps/reports/sql/siteOfInfection.sql"
         }
     }
 }
